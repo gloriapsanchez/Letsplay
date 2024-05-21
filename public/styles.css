@@ -1,0 +1,105 @@
+body {
+    font-family: monospace;  
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  header {
+    background-color: #010001;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    color: rgb(255, 228, 141);
+    margin: 0;
+   /* letter-spacing: .5px;*/
+  }
+
+  .page {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+  }
+  
+  .page h1, .page p {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(255, 228, 141);
+  }
+  
+  .page h1 {
+    font-size: 14px;
+    
+  }
+  
+  .page p {
+    font-size: 10px; /* Adjust font size as needed */
+    text-align: center;
+  }
+
+  .progress-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+  }
+  
+  .renderer-container {
+    width: 100%;
+    height: 80vh;
+  }
+  
+  .border {
+    border-top: 2px solid #fff;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    color: rgb(255, 228, 141);
+    background-color: #010001;
+    border: 2px solid rgb(255, 228, 141);
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(255, 228, 141);
+    color: #010001;
+}
+
+button:active {
+    background-color: #010001;
+    color: rgb(255, 228, 141);
+}
+  /*a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #660055;
+  }
+  
+  a:hover {
+    color: rgb(24, 1, 31);
+  }
+  
+  a:active {
+    color: #bb402d;
+  }
+  */
+
+  
